@@ -1,0 +1,10 @@
+{
+    "buildType": {
+        "default": "release",
+        "description": "Build type (Release makes the computer opponent much stronger)",
+        "choices": {
+            "release": { "short": "Release", "long": "Optimised build", "buildType": "Release" },
+            "debug":   { "short": "Debug",   "long": "Debug build (slower AI)", "buildType": "Debug" }
+        }
+    }
+}

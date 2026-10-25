@@ -1,0 +1,13 @@
+{
+    // Settings for the "CMake Tools" extension (ms-vscode.cmake-tools).
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    // Ninja if installed, otherwise MinGW's own make (mingw32-make), otherwise make.
+    "cmake.preferredGenerators": ["Ninja", "MinGW Makefiles", "Unix Makefiles"],
+    // Run the game from the folder of the .exe (where the assets are copied).
+    "cmake.debugConfig": {
+        "cwd": "${command:cmake.launchTargetDirectory}"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": { "*.h": "cpp" }
+}

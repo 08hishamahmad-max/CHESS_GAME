@@ -1,0 +1,15 @@
+Chess piece images (assets/pieces/*.png and tools/cburnett_svg/*.svg)
+=====================================================================
+
+Artwork: "cburnett" chess pieces by Colin M.L. Burnett
+         https://en.wikipedia.org/wiki/User:Cburnett
+
+The SVG files were taken from the lichess.org repository
+(https://github.com/lichess-org/lila/tree/master/public/piece/cburnett),
+where they are distributed under the GNU GPL v2 or later.
+The same artwork is published on Wikimedia Commons under
+CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/),
+GFDL and GPL.
+
+The PNG files were rendered from the unmodified SVGs with
+tools/render_pieces.py (256 x 256 pixels).
